@@ -151,19 +151,34 @@ ul.main-menu li a.active {
     display: block;
 }
 
-.centered-image {
+.flip-container {
+    perspective: 1000px;
+}
+
+.flipper {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
-    max-width: 100%; /* Ensures it does not exceed the parent container */
-  overflow: hidden;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
 }
 
-.responsive-image {
-    max-width: 100%; /* Adjust to control image size */
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.front-image, .back-image {
+    width: 100%;
     height: auto;
-    display: block;
-    object-fit: contain; /* Ensures the image scales properly */
+    position: absolute;
+    backface-visibility: hidden;
     border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.back-image {
+    transform: rotateY(180deg);
 }
