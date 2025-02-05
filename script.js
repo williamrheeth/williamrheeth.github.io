@@ -23,4 +23,20 @@
         $(region).fadeIn(600).addClass('active');
         $('.main-menu a[href="' + region + '"]').addClass('active');
     });
+
+    // Smooth scrolling when clicking internal links
+    $(document).on('click', 'a[href^="#"]', function(event) {
+        event.preventDefault();
+        var target = $(this).attr('href');
+
+        if ($(target).length) {
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 800, function() {
+                // Change hash in URL after scrolling (without jumping)
+                window.location.hash = target;
+            });
+        }
+    });
+
 })(jQuery);
