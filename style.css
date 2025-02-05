@@ -140,8 +140,8 @@ ul.main-menu li a.active {
 /* Tab content transition effect */
 .content-region {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateY(10px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     display: none;
 }
 
@@ -150,5 +150,4 @@ ul.main-menu li a.active {
     transform: translateY(0);
     display: block;
 }
-
 
