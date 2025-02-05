@@ -156,11 +156,14 @@ ul.main-menu li a.active {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    max-width: 100%; /* Ensures it does not exceed the parent container */
+  overflow: hidden;
 }
 
-.centered-image img {
-    max-width: 100%;
+.responsive-image {
+    max-width: 80%; /* Adjust to control image size */
     height: auto;
     display: block;
+    object-fit: contain; /* Ensures the image scales properly */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }
-
