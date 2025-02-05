@@ -156,8 +156,8 @@ ul.main-menu li a.active {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Adjust as needed */
-    height: 1200px; /* Ensure space is always allocated */
+    max-width: 600px; /* Adjust as needed */
+    height: 600px; /* Ensure space is always allocated */
     margin: 20px auto;
     perspective: 1000px;
     position: relative; /* Ensures it's positioned properly */
