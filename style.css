@@ -162,8 +162,8 @@ ul.main-menu li a.active {
 
 .flipper {
     position: relative;
-    width: 300px; /* Adjust size as needed */
-    height: 200px; /* Adjust to match image size */
+    width: 1200px; /* Adjust size as needed */
+    height: 1200px; /* Adjust to match image size */
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
