@@ -5,9 +5,9 @@
         var region = location.hash.toString() || $('.main-menu a:first').attr('href');
 
         // Remove active state and fade out all sections
-        $('.content-region.active').removeClass('active').fadeOut(600, function () {
-            // Fade in the new section with longer duration
-            $(region).fadeIn(200).addClass('active');
+        $('.content-region.active').removeClass('active').fadeOut(200, function () {
+            // Fade in the new section with shorter duration
+            $(region).fadeIn(100).addClass('active');
         });
 
         // Remove any active classes on the main menu
@@ -20,7 +20,7 @@
     // Ensure the first section is visible on page load
     $(document).ready(function () {
         var region = location.hash.toString() || $('.main-menu a:first').attr('href');
-        $(region).fadeIn(600).addClass('active');
+        $(region).fadeIn(300).addClass('active');
         $('.main-menu a[href="' + region + '"]').addClass('active');
     });
 
@@ -32,7 +32,7 @@
         if ($(target).length) {
             $('html, body').animate({
                 scrollTop: $(target).offset().top
-            }, 800, function() {
+            }, 500, function() {
                 // Change hash in URL after scrolling (without jumping)
                 window.location.hash = target;
             });
