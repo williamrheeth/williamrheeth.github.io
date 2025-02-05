@@ -161,7 +161,7 @@ ul.main-menu li a.active {
 }
 
 .responsive-image {
-    max-width: 10%; /* Adjust to control image size */
+    max-width: 100%; /* Adjust to control image size */
     height: auto;
     display: block;
     object-fit: contain; /* Ensures the image scales properly */
