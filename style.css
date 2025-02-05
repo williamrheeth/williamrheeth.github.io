@@ -151,3 +151,16 @@ ul.main-menu li a.active {
     display: block;
 }
 
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
