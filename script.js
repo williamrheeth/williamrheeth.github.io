@@ -7,7 +7,7 @@
         // Remove active state and fade out all sections
         $('.content-region.active').removeClass('active').fadeOut(600, function () {
             // Fade in the new section with longer duration
-            $(region).fadeIn(600).addClass('active');
+            $(region).fadeIn(200).addClass('active');
         });
 
         // Remove any active classes on the main menu
