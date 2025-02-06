@@ -163,12 +163,4 @@ ul.main-menu li a.active {
   display: inline-block;
 }
 
-/* Optional: style the caption */
-.centered-image figcaption {
-  color: #FFFFFF;
-  font-size: 1.6rem;
-  margin-top: 0.5rem;
-}
-
-
 ~
