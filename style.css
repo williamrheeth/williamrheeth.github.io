@@ -156,33 +156,15 @@ ul.main-menu li a.active {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 600px; /* Adjust as needed */
-    height: 600px; /* Ensure space is always allocated */
+    max-width: 500px;
+    height: auto;
     margin: 20px auto;
-    perspective: 1000px;
-    position: relative; /* Ensures it's positioned properly */
+    cursor: pointer;
 }
 
-.flipper {
-    width: 50%;
-    height: 50%;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    position: absolute;
-}
-
-.image-container:hover .flipper {
-    transform: rotateY(180deg);
-}
-
-.front, .back {
-    width: 50%;
-    height: 50%;
-    backface-visibility: hidden;
-    position: absolute;
-}
-
-.back {
-    transform: rotateY(180deg);
+#dynamic-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
 }
 
