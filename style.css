@@ -151,16 +151,18 @@ ul.main-menu li a.active {
     display: block;
 }
 
-/* Center the figure and make sure it’s responsive */
+/* Center the figure and restrict its max width */
 .centered-image {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px auto;
+  max-width: 600px; /* Adjust this value as needed */
 }
 
+/* Make the image fill the container and stay responsive */
 .responsive-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  display: inline-block;
+  display: block;
 }
 
 ~
