@@ -150,4 +150,25 @@ ul.main-menu li a.active {
     transform: translateY(0);
     display: block;
 }
+
+/* Center the figure and make sure it’s responsive */
+.centered-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+/* Optional: style the caption */
+.centered-image figcaption {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+
 ~
