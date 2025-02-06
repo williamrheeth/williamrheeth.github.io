@@ -150,21 +150,4 @@ ul.main-menu li a.active {
     transform: translateY(0);
     display: block;
 }
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin: 20px auto;
-    cursor: pointer;
-}
-
-#dynamic-image {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.5s ease-in-out;
-}
-
+~
