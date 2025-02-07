@@ -100,7 +100,7 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, footer { 
+header, #content{ 
   background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
@@ -165,11 +165,21 @@ ul.main-menu li a.active {
   display: block;
 }
 
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Centered container for the Back to Top button */
+.back-to-top-container {
+  margin-top: 10px; /* Space between GitHub icon and button */
+}
+
 /* Back to Top Button Styling */
 #backToTop {
   display: inline-block;
-  margin-top: 15px;
-  padding: 0.5em 1em;
+  padding: 10px 15px;
   background-color: #22adbd;
   color: #FFF;
   border: none;
