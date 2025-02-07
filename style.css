@@ -178,7 +178,7 @@ footer {
 
 /* Back to Top Button Styling */
 #backToTop {
-  display: inline-block;
+  display: inline-flex;
   padding: 10px 15px;
   background-color: #22adbd;
   color: #FFF;
@@ -191,6 +191,12 @@ footer {
 
 #backToTop:hover {
   background-color: #9eeef7;
+}
+
+/* Style the up arrow */
+.arrow-up {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 
