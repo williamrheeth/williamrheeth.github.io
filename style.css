@@ -207,14 +207,14 @@ footer {
   padding-bottom: 10px;
   margin-bottom: 20px;
   text-align: left;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 /* Underline effect */
 .section-heading::after {
   content: "";
   display: block;
-  width: 96%; /* Controls the length of the underline */
+  width: 100%; /* Controls the length of the underline */
   height: 2px; /* Thickness of the underline */
   background-color: #FFFFFF; /* Match text color */
   margin: 2px auto 0; /* Adds spacing and centers the line */
