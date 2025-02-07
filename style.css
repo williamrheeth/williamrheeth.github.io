@@ -213,7 +213,7 @@ footer {
 .section-heading::after {
   content: "";
   display: block;
-  width: 90%; /* Controls the length of the underline */
+  width: 96%; /* Controls the length of the underline */
   height: 2px; /* Thickness of the underline */
   background-color: #FFFFFF; /* Match text color */
   margin: 2px auto 0; /* Adds spacing and centers the line */
