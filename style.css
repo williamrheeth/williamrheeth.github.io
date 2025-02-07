@@ -216,7 +216,7 @@ footer {
   width: 90%; /* Controls the length of the underline */
   height: 2px; /* Thickness of the underline */
   background-color: #FFFFFF; /* Match text color */
-  margin: 8px auto 0; /* Adds spacing and centers the line */
+  margin: 2px auto 0; /* Adds spacing and centers the line */
 }
 
 
